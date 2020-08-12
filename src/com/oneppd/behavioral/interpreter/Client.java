@@ -4,7 +4,7 @@ public class Client {
 	
 	public static void main(String[] args) {
 		
-		AbstractExpression abstractExpression = new TerminalExpression();
+		AbstractExpression abstractExpression = new NonTerminalExpression();
 		abstractExpression.interpret(new Context());
 		
 	}

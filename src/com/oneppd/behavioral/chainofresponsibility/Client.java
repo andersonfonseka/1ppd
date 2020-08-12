@@ -9,7 +9,7 @@ public class Client {
 		DiretorAprovador diretorAprovador = new DiretorAprovador(vpAprovador);
 		GerenteAprovador gerenteAprovador = new GerenteAprovador(diretorAprovador);
 		
-		Pedido pedido = new Pedido(1000, "Conversa com capa da sexy");
+		Pedido pedido = new Pedido(1000, "Conversa com uma modelo capa da revista");
 		
 		gerenteAprovador.processRequest(pedido);
 		
